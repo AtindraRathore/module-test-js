@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <nav>
+     <img src="image/Logo.png" alt="logo" />
+   </nav>
+   <form class="container">
+    <div id="cover">
+      <div style="display:inline;">
+        <input type="text" id="add" placeholder="Enter Your To-Do-List Task" /><button id="addbtn" onclick="save()" >Add</button>
+       </div>
+      <div style="display:flex;justify-content: space-between;">
+        <button class="btn">To do List</button>
+        <button class="btn">High Priority</button>
+      </div>
+         <div class="added-data"></div>
+    </div>
+   </form>
+    <script src="script.js"></script>
+</body>
+</html>
